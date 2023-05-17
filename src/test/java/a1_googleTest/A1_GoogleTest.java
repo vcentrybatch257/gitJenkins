@@ -20,7 +20,7 @@ public class A1_GoogleTest {
 		
 	WebDriver wd = new ChromeDriver();
 	WebDriverManager.chromedriver().setup();
-	wd.get("https://www.yahoo.com/");
+	wd.get("https://www.google.com/");
 	wd.findElement(By.name("q")).sendKeys("chennai");
 	wd.findElement(By.name("q")).submit();
 	
